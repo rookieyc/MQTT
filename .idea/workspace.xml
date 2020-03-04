@@ -1,7 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a13c3fdc-2ddb-4119-ab06-e88a9e5d74d0" name="Default Changelist" comment="" />
+    <list default="true" id="a13c3fdc-2ddb-4119-ab06-e88a9e5d74d0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/maxsize/Broker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/maxsize/Gateway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/maxsize/Manufacturer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/Subscriber1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/Subscriber2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/W3J.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/v1/Meta$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/v1/Meta$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/v1/Meta$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/v1/Meta$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/v1/Meta$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/v1/Meta$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/v1/Meta$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/v1/Meta$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/v1/Meta$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/v1/Meta$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/v1/Meta$DeliverEventResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/v1/Meta$DemandEventResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/v1/Meta.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/v1/OBJ.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/v1/Publisher$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/v1/Publisher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/v1/Server.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/v1/Subscriber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/v1/W3J.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/v2/Broker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/v2/Gateway.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/v2/Meta$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/v2/Meta$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/v2/Meta$11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/v2/Meta$12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/v2/Meta$13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/v2/Meta$14.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/v2/Meta$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/v2/Meta$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/v2/Meta$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/v2/Meta$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/v2/Meta$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/v2/Meta$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/v2/Meta$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/v2/Meta$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/v2/Meta$DeliverEventResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/v2/Meta$DemandEventResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/v2/Meta.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/v2/OBJ.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/v2/W3J.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/v4/Gateway$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/v4/Gateway$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/v4/Gateway$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/v4/Gateway$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/v4/Gateway.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/v4/Gateway.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/v4/Manufacturer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/v4/Manufacturer$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/v4/Manufacturer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/v4/Manufacturer.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,7 +69,35 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/maxsize/Manufacturer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/maxsize/Broker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/maxsize/Gateway.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="55">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -48,7 +131,11 @@
       <find>obj_list</find>
       <find>publishHandler</find>
       <find>BK_IPsandPKs</find>
+      <find>SUBACK</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -58,7 +145,6 @@
         <option value="$PROJECT_DIR$/src/main/java/v1/Client.java" />
         <option value="$PROJECT_DIR$/src/main/java/test/Client.java" />
         <option value="$PROJECT_DIR$/src/main/java/v1/Subscriber.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/v1/Tmp.java" />
         <option value="$PROJECT_DIR$/src/main/java/v1/Server.java" />
         <option value="$PROJECT_DIR$/src/main/java/v1/W3J.java" />
@@ -86,6 +172,10 @@
         <option value="$PROJECT_DIR$/src/main/java/v4/Broker.java" />
         <option value="$PROJECT_DIR$/src/main/java/v4/Gateway.java" />
         <option value="$PROJECT_DIR$/src/main/java/v4/Manufacturer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/maxsize/Broker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/maxsize/Manufacturer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/maxsize/Gateway.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -107,7 +197,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -139,16 +228,18 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="v4" type="462c0819:PsiDirectoryNode" />
+              <item name="maxsize" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/v4" />
@@ -188,13 +279,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Manufacturer">
-    <configuration name="Broker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="v4.Broker" />
+  <component name="RunManager" selected="Application.Broker (1)">
+    <configuration name="Broker (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="maxsize.Broker" />
       <module name="SecurityFlagShip" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.*" />
+          <option name="PATTERN" value="maxsize.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Gateway (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="maxsize.Gateway" />
+      <module name="SecurityFlagShip" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="maxsize.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -208,6 +312,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Manufacturer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="maxsize.Manufacturer" />
+      <module name="SecurityFlagShip" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="maxsize.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -229,15 +346,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Broker" />
       <item itemvalue="Application.Gateway" />
       <item itemvalue="Application.Manufacturer" />
+      <item itemvalue="Application.Manufacturer (1)" />
+      <item itemvalue="Application.Broker (1)" />
+      <item itemvalue="Application.Gateway (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Manufacturer" />
+        <item itemvalue="Application.Broker (1)" />
+        <item itemvalue="Application.Manufacturer (1)" />
+        <item itemvalue="Application.Gateway (1)" />
         <item itemvalue="Application.Gateway" />
-        <item itemvalue="Application.Broker" />
+        <item itemvalue="Application.Manufacturer" />
       </list>
     </recent_temporary>
   </component>
@@ -277,11 +398,15 @@
       <workItem from="1582510100916" duration="3281000" />
       <workItem from="1582700009686" duration="6711000" />
       <workItem from="1582731645154" duration="9044000" />
+      <workItem from="1582967183103" duration="758000" />
+      <workItem from="1583215402639" duration="593000" />
+      <workItem from="1583314179949" duration="722000" />
+      <workItem from="1583325773085" duration="13083000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139967000" />
+    <option name="totallyTimeSpent" value="155123000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -295,7 +420,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16957104" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17761394" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -304,7 +429,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.37057993" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3696884" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -314,7 +439,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32810047" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32531825" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3243626" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -350,49 +475,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/test/Server.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/v1/Tmp.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/v1/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="106" column="25" lean-forward="true" selection-start-line="102" selection-start-column="24" selection-end-line="106" selection-end-column="25" />
-          <folding>
-            <element signature="e#517#518#0" expanded="true" />
-            <element signature="e#557#558#0" expanded="true" />
-            <element signature="method#handleClientDisconnect#0;class#Server#0" />
-            <element signature="method#handleUnsubscription#0;class#Server#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/v1/Server.java" />
     <entry file="file://$PROJECT_DIR$/../Solidity/meta.sol" />
     <entry file="file://$PROJECT_DIR$/../Solidity/Contract.sol" />
     <entry file="file://$PROJECT_DIR$/src/main/java/v3/Contract.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/v1/W3J.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="39" column="90" selection-start-line="39" selection-start-column="90" selection-end-line="39" selection-end-column="90" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/v1/W3J.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/io/reactivex/rxjava/1.2.4/rxjava-1.2.4.jar!/rx/exceptions/OnErrorThrowable.class">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/reactivex/rxjava/1.2.4/rxjava-1.2.4.jar!/rx/internal/operators/OnSubscribeMap.class">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/v2/Broker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="91" column="22" lean-forward="true" selection-start-line="91" selection-start-column="22" selection-end-line="91" selection-end-column="22" />
-          <folding>
-            <element signature="method#handlePublish#0;class#Broker#0" />
-            <element signature="method#handlePing#0;class#Broker#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/v2/Broker.java" />
     <entry file="jar://C:/Program Files/Java/jdk-11.0.4/lib/src.zip!/java.base/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
@@ -417,13 +511,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="36" column="13" lean-forward="true" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -469,17 +556,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/v4/Broker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="75" column="13" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="class#OBJ#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/v4/MyContract.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -487,20 +563,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/v4/Manufacturer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/Subscriber1.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/Subscriber2.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/W3J.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/v1/Meta.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/v1/Publisher.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/v1/Subscriber.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/v2/Meta.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/v2/Gateway.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/v2/W3J.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/v4/W3J.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1994">
-          <caret line="120" column="49" lean-forward="true" selection-start-line="120" selection-start-column="49" selection-end-line="120" selection-end-column="49" />
+        <state relative-caret-position="969">
+          <caret line="59" column="40" selection-start-line="59" selection-start-column="40" selection-end-line="59" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#deployContract#0;class#W3J#0" />
@@ -510,87 +585,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/Subscriber1.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/v4/Manufacturer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/Subscriber2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="19" column="60" lean-forward="true" selection-start-line="19" selection-start-column="60" selection-end-line="19" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/W3J.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+        <state relative-caret-position="988">
+          <caret line="59" column="88" selection-start-line="57" selection-start-column="28" selection-end-line="59" selection-end-column="88" />
           <folding>
-            <element signature="method#deployContract#0;class#W3J#0" />
-            <element signature="method#loadContract#0;class#W3J#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/v1/Meta.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="142" column="61" lean-forward="true" selection-start-line="142" selection-start-column="61" selection-end-line="142" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/v1/Publisher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="33" column="28" lean-forward="true" selection-start-line="33" selection-start-column="28" selection-end-line="35" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/v1/Subscriber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/v2/Meta.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="149" column="5" lean-forward="true" selection-start-line="149" selection-start-column="5" selection-end-line="149" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/v2/Gateway.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/v2/W3J.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-616">
-          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
-          <folding>
-            <element signature="e#1908#1909#0" expanded="true" />
-            <element signature="e#1962#1963#0" expanded="true" />
-            <element signature="method#deployContract#0;class#W3J#0" />
-            <element signature="method#loadContract#0;class#W3J#0" />
-            <element signature="method#hexToAscii#0;class#W3J#0" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/v4/Gateway.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="229">
+          <caret line="113" column="28" selection-start-line="113" selection-start-column="28" selection-end-line="113" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/v4/Broker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="181" column="83" selection-start-line="181" selection-start-column="83" selection-end-line="181" selection-end-column="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/maxsize/Gateway.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/maxsize/Broker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/maxsize/Manufacturer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
