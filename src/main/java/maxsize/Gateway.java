@@ -10,7 +10,7 @@ import java.io.OutputStream;
 public class Gateway {
 
     private static String name = "Gateway";
-    private static String path = "C:\\Users\\hyc\\Desktop\\FW2.txt";
+    private static String path = "C:\\Users\\hyc\\Desktop\\FW_new.txt";
 
     public static void main(String[] args) {
 
@@ -18,12 +18,12 @@ public class Gateway {
         MqttClientOptions options = new MqttClientOptions()
                 .setClientId(name)
                 .setCleanSession(false)
-                .setMaxMessageSize(100_000_000)
+                .setMaxMessageSize(200_000_000)
                 .setMaxInflightQueue(100)
                 .setKeepAliveTimeSeconds(3000);
         MqttClient client = MqttClient.create(vertx, options);
 
-        client.connect(12888, "localhost", conn -> {
+        client.connect(12888, "140.118.109.106", conn -> { // localhost 140.118.109.106
             if (conn.succeeded()) {
                 System.out.println(name + "connect to Broker successfully\n");
 

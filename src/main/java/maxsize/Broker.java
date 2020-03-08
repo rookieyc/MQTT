@@ -20,7 +20,7 @@ public class Broker {
 
         Vertx vertx = Vertx.vertx();
         MqttServerOptions options = new MqttServerOptions()
-                .setMaxMessageSize(100_000_000);
+                .setMaxMessageSize(200_000_000);
         MqttServer mqttServer = MqttServer.create(vertx, options);
 
         mqttServer.endpointHandler(endpoint -> {
@@ -41,7 +41,7 @@ public class Broker {
 
             handleSubscription(endpoint);
             handlePublish(endpoint);
-        }).listen(12888, "localhost", status -> {
+        }).listen(12888, "localhost", status -> { // localhost 140.118.109.106
             if (status.succeeded()) {
                 System.out.println("MQTT server is listening on port " + status.result().actualPort());
             } else {

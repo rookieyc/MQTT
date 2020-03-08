@@ -12,7 +12,7 @@ import java.nio.file.Paths;
 public class Manufacturer {
 
     private static String name = "Manufacturer";
-    private static String path = "C:\\Users\\hyc\\Desktop\\FW.txt";
+    private static String path = "C:\\Users\\hyc\\Desktop\\FW_100M.txt";
 
     public static void main(String[] args) {
 
@@ -20,12 +20,12 @@ public class Manufacturer {
         MqttClientOptions options = new MqttClientOptions()
                 .setClientId(name)
                 .setCleanSession(false)
-                .setMaxMessageSize(100_000_000) // Set max MQTT message size (in bytes)
+                .setMaxMessageSize(200_000_000) // Set max MQTT message size (in bytes)
                 .setMaxInflightQueue(100)       // Set max count of unacknowledged messages
                 .setKeepAliveTimeSeconds(3000); // Set the keep alive timeout in seconds
         MqttClient client = MqttClient.create(vertx, options);
 
-        client.connect(12888, "localhost", conn -> {
+        client.connect(12888, "140.118.109.106", conn -> { // localhost 140.118.109.106
             if (conn.succeeded()) {
                 try {
                     System.out.println(name + "connect to Broker successfully\n");
