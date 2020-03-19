@@ -15,24 +15,24 @@ import java.util.List;
 public class Broker {
 
     static MqttEndpoint GW_endpoint; // tmp
+    static double downloading;
 
     public static void main(String[] args) {
 
         Vertx vertx = Vertx.vertx();
         MqttServerOptions options = new MqttServerOptions()
-                .setMaxMessageSize(200_000_000);
+                .setMaxMessageSize(300_000_000);
         MqttServer mqttServer = MqttServer.create(vertx, options);
 
         mqttServer.endpointHandler(endpoint -> {
             System.out.println("\nMQTT client [" + endpoint.clientIdentifier() + "] request to connect, "
-                    + "clean session = " + endpoint.isCleanSession());
+                    + "clean session = " + endpoint.isCleanSession()
+                    + "keep alive timeout =" + endpoint.keepAliveTimeSeconds());
 
             if (endpoint.auth() != null) {
                 System.out.println("[username= " + endpoint.auth().getUsername()
                         + ", password= " + endpoint.auth().getPassword() + "]");
             }
-
-            System.out.println("[keep alive timeout= " + endpoint.keepAliveTimeSeconds() + "]\n");
             endpoint.accept(false);
 
             if (endpoint.clientIdentifier().equals("Gateway")) { // tmp
@@ -41,7 +41,7 @@ public class Broker {
 
             handleSubscription(endpoint);
             handlePublish(endpoint);
-        }).listen(12888, "localhost", status -> { // localhost 140.118.109.106
+        }).listen(12888, "140.118.109.132", status -> { // localhost 140.118.109.106
             if (status.succeeded()) {
                 System.out.println("MQTT server is listening on port " + status.result().actualPort());
             } else {
@@ -68,8 +68,11 @@ public class Broker {
 //            System.out.println("Just received message [" + message.payload().toString(Charset.defaultCharset()) + "] with QoS [" + message.qosLevel() + "]");
             System.out.println("Just received message [" + message.payload().toString().length() + "] with QoS [" + message.qosLevel() + "]");
 
+            downloading = System.currentTimeMillis();
             if (message.qosLevel() == MqttQoS.AT_LEAST_ONCE) {
-                GW_endpoint.publish(message.topicName(), Buffer.buffer(message.payload().toString(Charset.defaultCharset()))
+                GW_endpoint.publishAcknowledgeHandler(messageId -> {
+                    System.out.println("download time is " + (System.currentTimeMillis() - downloading));
+                }).publish(message.topicName(), Buffer.buffer(message.payload().toString(Charset.defaultCharset()))
                         , MqttQoS.AT_LEAST_ONCE, false, true);
 
                 endpoint.publishAcknowledge(message.messageId());

@@ -18,14 +18,14 @@ public class Gateway {
         MqttClientOptions options = new MqttClientOptions()
                 .setClientId(name)
                 .setCleanSession(false)
-                .setMaxMessageSize(200_000_000)
+                .setMaxMessageSize(300_000_000)
                 .setMaxInflightQueue(100)
                 .setKeepAliveTimeSeconds(3000);
         MqttClient client = MqttClient.create(vertx, options);
 
-        client.connect(12888, "140.118.109.106", conn -> { // localhost 140.118.109.106
+        client.connect(12888, "140.118.109.132", conn -> { // localhost 140.118.109.106
             if (conn.succeeded()) {
-                System.out.println(name + "connect to Broker successfully\n");
+                System.out.println(name + "connect to Broker successfully");
 
                 client.subscribe("manufacturerA/DeviceA", 1);
             } else if (conn.failed()) {
@@ -40,14 +40,14 @@ public class Gateway {
         client.publishHandler(s -> {
             System.out.println("There are new message in topic: " + s.topicName());
             System.out.println("Content(as string) of the message: " + s.payload().toString().length());
-            System.out.println("QoS: " + s.qosLevel() + "\n");
+            System.out.println("QoS: " + s.qosLevel());
 
             try {
                 OutputStream os = new FileOutputStream(path);
                 os.write(s.payload().getBytes());
                 os.flush();
                 os.close();
-                System.out.println("Write bytes to file successfully");
+                System.out.println("Write bytes to file successfully\n");
             } catch (Exception e) {
                 e.printStackTrace();
             }

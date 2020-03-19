@@ -12,7 +12,9 @@ import java.nio.file.Paths;
 public class Manufacturer {
 
     private static String name = "Manufacturer";
-    private static String path = "C:\\Users\\hyc\\Desktop\\FW_100M.txt";
+    private static String path = "C:\\Users\\hyc\\Desktop\\FW-257M.txt";
+
+    static double uploading;
 
     public static void main(String[] args) {
 
@@ -20,16 +22,17 @@ public class Manufacturer {
         MqttClientOptions options = new MqttClientOptions()
                 .setClientId(name)
                 .setCleanSession(false)
-                .setMaxMessageSize(200_000_000) // Set max MQTT message size (in bytes)
+                .setMaxMessageSize(300_000_000) // Set max MQTT message size (in bytes)
                 .setMaxInflightQueue(100)       // Set max count of unacknowledged messages
                 .setKeepAliveTimeSeconds(3000); // Set the keep alive timeout in seconds
         MqttClient client = MqttClient.create(vertx, options);
 
-        client.connect(12888, "140.118.109.106", conn -> { // localhost 140.118.109.106
+        client.connect(12888, "140.118.109.132", conn -> { // localhost 140.118.109.106
             if (conn.succeeded()) {
                 try {
                     System.out.println(name + "connect to Broker successfully\n");
 
+                    uploading = System.currentTimeMillis();
                     client.publish("manufacturerA/DeviceA",
                             Buffer.buffer(Files.readAllBytes(Paths.get(path))),
                             MqttQoS.AT_LEAST_ONCE, false, true); // b1: isRetain
@@ -42,6 +45,7 @@ public class Manufacturer {
         });
 
         client.publishCompletionHandler(s -> {
+            System.out.println("upload time is " + (System.currentTimeMillis() - uploading));
             System.out.println("publish Completion, Id of just received PUBACK or PUBCOMP packet is " + s);
         });
     }
